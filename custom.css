@@ -1,0 +1,39 @@
+.site-header {
+  position: relative;
+  margin-bottom: -25px;
+  padding-bottom: -50px;
+  padding-top: 100px;
+}
+
+.site-header::after {
+  padding-top: 100px;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-image: url('URL');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  width: 100%;
+  height: 100%;
+  opacity: .3;
+  z-index: -1;
+}
+
+.tagline, #menu-primary-items, .social-media-icons {
+  font-size: 1.5em;
+}
+
+.social-media-icons {
+  margin-right: 2%;
+}
+
+.comments-closed {
+  display: none;
+}
+
+.post-header {
+  font-size: .8em;
+}
